@@ -1,0 +1,222 @@
+*, *:before, *:after {
+ margin: 0;
+ padding: 0;
+ outline: 0;
+ box-sizing: border-box;
+}
+
+body{
+  font-family: arial;
+  background-color: white;
+  background-image: linear-gradient(90deg, #DEB1FB, #9FFAED);
+}
+
+header{
+  justify-content: space-between;
+  background: white;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: linear-gradient(90deg, #FCC3B0, #FCDBB0, #FCEDB0, #DBFCB0, #BAFCB0, #B0FCDF, #B0E8FC, #B4B0FC, #F0B0FC, #FCB0E8, #FCB0BF);
+}
+
+img{
+    height: 100px;
+    width: 100px;
+  }
+
+header div{
+  padding: 5px;
+  font-size: 15px;
+}
+
+.redes a{
+ text-decoration: none;
+ font-size: 28px;
+ width: 50px;
+ height: 50px;
+ line-height: 50px;
+ text-align: center;
+ background-color: #4158D0;
+ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+ color: #f1f1f1;
+ border-radius: 50%;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+ transition: all .4s ease-in-out;
+ margin-right: 10px;
+}
+
+.redes a:hover{
+  transform: scale(1.2);
+}
+
+.whatsapp{
+  position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+  background-color: #00ff70;
+  background-image: -webkit-linear-gradient(45deg, #00ff70 0%, #FFFB7D 100%);
+  background-image: -moz-linear-gradient(45deg, #00ff70 0%, #FFFB7D 100%);
+  background-image: -o-linear-gradient(45deg, #00ff70 0%, #FFFB7D 100%);
+  background-image: linear-gradient(45deg, #00ff70 0%, #FFFB7D 100%);
+  color: black;
+	border-radius:50px;
+	text-align:center;
+  font-size:40px;
+	box-shadow: 2px 2px 5px #999;
+  z-index:100;
+}
+
+.mi-boton{
+  margin-top: 11px;
+}
+
+h1 {
+font-size: 30px;
+text-align: center;
+border: 2px solid;
+}
+
+h2 {font-size: 25px;
+text-align: center;
+text-decoration: underline;}
+
+
+figure{
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+.alinearimagen {
+height: 100%;
+width: 100%;
+max-width: 700px;
+}
+
+  .alinearmapa{
+  display: flex;
+  justify-content: center;
+}
+
+  .alinearvideo{
+  display: flex;
+  justify-content: center;
+}
+
+p {font-size: 17px;}
+
+h3{font-size: 20px;
+text-align: center;
+text-decoration: underline;}
+
+b {font-size: 17px;}
+
+ul{font-size: 17px;}
+
+ol {font-size: 17px;}
+
+.textocompleto {
+  background: 90deg, #DEB1FB, #9FFAED;
+  height: 1350px;
+  margin: 2rem auto;
+  width: 800px;
+  text-align: justify;
+}
+
+.parrafo{
+  display: flex;
+  background: 90deg, #DEB1FB, #9FFAED;
+  height: 200px;
+  margin: 2rem auto;
+  width: 800px;
+  text-align: justify;
+}
+
+.botones {
+  min-width: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.botones a{
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+  margin-right: 10px;
+}
+
+.botones a:hover{
+  transform: scale(1.2);
+}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.mapabarrio{
+  border: 1px solid;
+}
+
+.informacion{
+  border: 1px solid;
+}
+
+.menu{
+  list-style: none;
+  padding: 0;
+  background-color: white;
+  width: 100%;
+  margin: auto;
+}
+
+.menuvertical{
+position: absolute;
+display: none;
+list-style: none;
+width: 137px;
+background-image: linear-gradient(90deg, #DEB1FB, #9FFAED);
+}
+
+.menu .centrar li:hover .menuvertical{
+  display: block;
+}
+.centrar {
+  text-align: center;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  display: block;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a:hover{
+  background-image: linear-gradient(90deg, #FCC3B0, #FCDBB0, #FCEDB0, #DBFCB0, #BAFCB0, #B0FCDF, #B0E8FC, #B4B0FC, #F0B0FC, #FCB0E8, #FCB0BF);
+}
